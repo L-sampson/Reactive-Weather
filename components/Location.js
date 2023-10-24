@@ -32,7 +32,13 @@ function Location({data, location}){
       </div>
       )
     } catch (error) {
-      console.log(error, "Location not found")
+      return(
+        <>
+        <h1>
+          Location is Not Found!!!
+        </h1>
+        </>
+      )
     }
 }
 
