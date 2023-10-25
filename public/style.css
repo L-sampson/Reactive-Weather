@@ -51,6 +51,8 @@
 
 button {
     margin: 0.5em;
+    color:antiquewhite;
+    background-color: blue;
 }
 
 .city {
